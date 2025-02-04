@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 async function connectDB(){
     try{
-        await mongoose.connect("mongodb+srv://satyajit:Yb40N8lbZMXQrRc9@cluster0.sjgqc.mongodb.net/course-selling-app");
+        await mongoose.connect("mongodb+srv://satyajit:Yb40MXQrRc9@cluster0.sjgqc.mongodb.net/course-selling-app");
         console.log("Connection Successful");
     }
     catch(err)
